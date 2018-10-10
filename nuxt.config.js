@@ -43,7 +43,7 @@ module.exports = {
     'iview/dist/styles/iview.css',
     'nprogress/nprogress.css',
     'vue-touch-ripple/dist/vue-touch-ripple.css',
-    'ionicons/dist/css/ionicons.min.css',
+    // 'ionicons/dist/css/ionicons.min.css',
     '~assets/css/particle_font.css',
     { src: '~assets/stylus/index.styl', lang: 'stylus' },
   ]

@@ -11,7 +11,7 @@
             </div>
         </main>
 
-        <v-login :type="'login'"></v-login>
+        <v-login :type="'reg'"></v-login>
     </div>
 </template>
 

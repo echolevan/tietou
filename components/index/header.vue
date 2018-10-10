@@ -15,7 +15,7 @@
           </no-ssr>
         </router-link>
         <span>|</span>
-        <router-link to="/login">
+        <router-link to="/register">
           <no-ssr>
             <touch-ripple class="hover_hand submit_button">
               <span>注册</span>
@@ -29,7 +29,7 @@
       <router-link to="/user">
         <no-ssr>
           <touch-ripple class="hover_hand submit_button"  :class="{'is_active': $route.name.slice(0, 4) === 'user'}">
-            <i class="icon ion-ios-person"></i>
+            <Icon type="md-person" />
             <p>我的</p>
           </touch-ripple>
         </no-ssr>
@@ -38,7 +38,7 @@
       <router-link to="/article">
         <no-ssr>
           <touch-ripple class="hover_hand submit_button" :class="{'is_active': $route.name.slice(0, 7) === 'article'}">
-            <i class="icon ion-ios-filing"></i>
+            <Icon type="md-filing" />
             <p>文章</p>
           </touch-ripple>
         </no-ssr>
@@ -47,7 +47,7 @@
       <router-link to="/category">
         <no-ssr>
           <touch-ripple class="hover_hand submit_button"  :class="{'is_active': $route.name.slice(0, 8) === 'category'}">
-            <i class="icon ion-ios-keypad"></i>
+            <Icon type="md-keypad" />
             <p>分类</p>
           </touch-ripple>
         </no-ssr>
@@ -56,14 +56,14 @@
       <router-link to="/tag">
         <no-ssr>
           <touch-ripple class="hover_hand submit_button" :class="{'is_active': $route.name.slice(0, 3) === 'tag'}">
-            <i class="icon ion-ios-pricetags"></i>
+            <Icon type="md-pricetags" />
             <p>标签</p>
           </touch-ripple>
         </no-ssr>
       </router-link>
 
       <div>
-        <i class="icon ion-ios-search"></i>
+        <Icon type="md-search" />
         <p>搜索</p>
       </div>
 
@@ -145,11 +145,10 @@
       text-align center
       div
         i
-          font-size 20px
+          font-size 25px
           padding 0 15px
           color #ffffff
           position relative
-          left -8px
         p
           margin-top 5px
           color #fff

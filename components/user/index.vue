@@ -54,7 +54,7 @@
             </div>
 
             <div class="my_line_box_online">
-                <span class="my_line line-l"></span>
+                <span class="my_line line-r"></span>
             </div>
 
             <div class="detail">
