@@ -11,6 +11,11 @@
     data() {
       return {}
     },
+    head() {
+      return {
+        title: '用户中心'
+      }
+    },
     mounted() {
     },
     components: {

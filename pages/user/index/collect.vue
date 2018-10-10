@@ -11,6 +11,11 @@
     data() {
       return {}
     },
+    head() {
+      return {
+        title: '用户中心-收藏'
+      }
+    },
     mounted() {
       console.log(this.$route)
     },

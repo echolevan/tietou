@@ -45,6 +45,7 @@ module.exports = {
     'vue-touch-ripple/dist/vue-touch-ripple.css',
     // 'ionicons/dist/css/ionicons.min.css',
     '~assets/css/particle_font.css',
+    '~assets/css/login.css',
     { src: '~assets/stylus/index.styl', lang: 'stylus' },
   ]
 }

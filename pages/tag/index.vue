@@ -159,6 +159,11 @@
         ]
       }
     },
+    head() {
+      return {
+        title: '标签'
+      }
+    },
     mounted() {
       this.loading = false
     },

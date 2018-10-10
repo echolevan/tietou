@@ -1,5 +1,5 @@
 <template>
-  <div class="login">
+  <div class="login_div">
     <nuxt/>
   </div>
 </template>
@@ -8,14 +8,6 @@
   export default {
     data() {
       return {}
-    },
-    head() {
-      return {
-        title: 'zzz',
-        link: [
-          { rel: 'stylesheet', href: 'http://om63nsjit.bkt.clouddn.com/component2.css' }
-        ]
-      }
     },
     mounted() {
       imagesLoaded(document.body, () => document.body.classList.remove('loading'));
@@ -38,7 +30,7 @@
 
       let initCanvasSlideshow = new CanvasSlideshow({
         sprites: spriteImagesSrc,
-        displacementImage: 'http://om63nsjit.bkt.clouddn.com/clouds.jpg',
+        displacementImage: 'https://media.tietou.xyz/clouds.jpg',
         autoPlay: true,
         autoPlaySpeed: [4, 3],
         displaceScale: [5000, 10000],

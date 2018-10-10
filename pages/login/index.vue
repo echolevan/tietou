@@ -28,6 +28,11 @@
       return {
       }
     },
+    head() {
+      return {
+        title: '登录'
+      }
+    },
     mounted() {
 
     },

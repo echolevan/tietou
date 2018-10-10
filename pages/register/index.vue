@@ -28,6 +28,11 @@
       return {
       }
     },
+    head() {
+      return {
+        title: '注册'
+      }
+    },
     mounted() {
 
     },

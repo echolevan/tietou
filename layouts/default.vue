@@ -15,7 +15,7 @@
     },
     head() {
       return {
-        title: 'zzz'
+        title: 'Hello TieTou'
       }
     },
     mounted() {

@@ -3,15 +3,19 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {}
-        },
-        mounted() {
-        },
-        components: {
-        }
-    }
+  export default {
+    data() {
+      return {}
+    },
+    head() {
+      return {
+        title: '分类'
+      }
+    },
+    mounted() {
+    },
+    components: {}
+  }
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">

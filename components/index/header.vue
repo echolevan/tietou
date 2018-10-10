@@ -28,7 +28,7 @@
     <div class="bac">
       <router-link to="/user">
         <no-ssr>
-          <touch-ripple class="hover_hand submit_button"  :class="{'is_active': $route.name.slice(0, 4) === 'user'}">
+          <touch-ripple class="hover_hand submit_button"  :class="{'is_active': $route.name && $route.name.slice(0, 4) === 'user'}">
             <Icon type="md-person" />
             <p>我的</p>
           </touch-ripple>
@@ -37,7 +37,7 @@
 
       <router-link to="/article">
         <no-ssr>
-          <touch-ripple class="hover_hand submit_button" :class="{'is_active': $route.name.slice(0, 7) === 'article'}">
+          <touch-ripple class="hover_hand submit_button" :class="{'is_active': $route.name && $route.name.slice(0, 7) === 'article'}">
             <Icon type="md-filing" />
             <p>文章</p>
           </touch-ripple>
@@ -46,7 +46,7 @@
 
       <router-link to="/category">
         <no-ssr>
-          <touch-ripple class="hover_hand submit_button"  :class="{'is_active': $route.name.slice(0, 8) === 'category'}">
+          <touch-ripple class="hover_hand submit_button"  :class="{'is_active': $route.name && $route.name.slice(0, 8) === 'category'}">
             <Icon type="md-keypad" />
             <p>分类</p>
           </touch-ripple>
@@ -55,7 +55,7 @@
 
       <router-link to="/tag">
         <no-ssr>
-          <touch-ripple class="hover_hand submit_button" :class="{'is_active': $route.name.slice(0, 3) === 'tag'}">
+          <touch-ripple class="hover_hand submit_button" :class="{'is_active': $route.name && $route.name.slice(0, 3) === 'tag'}">
             <Icon type="md-pricetags" />
             <p>标签</p>
           </touch-ripple>
